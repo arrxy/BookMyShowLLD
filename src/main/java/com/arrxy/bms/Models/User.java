@@ -7,8 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Movie extends BaseModel {
+public class User extends BaseModel {
     private String name;
-    private Double rating;
-    private String genre;
+    private String email;
+
 }
